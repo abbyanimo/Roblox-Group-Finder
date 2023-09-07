@@ -1,8 +1,7 @@
-# Roblox-Group-Finder
+# Roblox Group Finder
 
 Trashy Roblox Group Finder Written In Go
-
-Shit Code But Works No Proxy Support. Host it on replit to not cause your internet to get ratelimited.
+Shit Code But Works No Proxy Support. Host it on replit to not cause your internet to get rate-limited.
 
 ## Setup
 
@@ -10,3 +9,7 @@ Shit Code But Works No Proxy Support. Host it on replit to not cause your intern
 2. Cd into the directory where `groupfinder.go` is located
 3. Type `go build groupfinder.go` to build it (or if you wish to run it without building)
 4. Type `go run groupfinder.go`
+
+## Fork On Replit
+
+[Fork On Replit](https://replit.com/@kosmosyes/Roblox-Group-Finder?v=1)
