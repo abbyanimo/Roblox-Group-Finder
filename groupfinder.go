@@ -84,7 +84,7 @@ func main() {
 					fmt.Printf("Group ID: %d is locked\n", groupID)
 				} else {
 					fmt.Printf("Group ID: %d has no owner\n", groupID)
-					webhookURL := "https://discord.com/api/webhooks/1149399976833712168/81FO_mMUrJhCFPbCjyMri6CRsk8Q14IPrf0jklMJX8Ob2yfDKK3vs-p-v2t9-oZcgqLg"
+					webhookURL := "" // Your Webhook Here :D
 					embed := map[string]interface{}{
 						"title":       "Click Here!",
 						"description": fmt.Sprintf("Group Name: %s\nMember Count: %d", groupName, detailedGroupData.memberCount),
