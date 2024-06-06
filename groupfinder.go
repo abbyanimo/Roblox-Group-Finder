@@ -1,6 +1,5 @@
 package main
 
-// Made By coolkosmos On Discord ID: 991425843911987252. Take Any Code From This If You Wish! Really Shitty Code Tho So GL!
 import (
 	"bytes"
 	"encoding/json"
