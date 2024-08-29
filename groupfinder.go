@@ -83,9 +83,9 @@ func main() {
 					fmt.Printf("Group ID: %d is locked\n", groupID)
 				} else {
 					fmt.Printf("Group ID: %d has no owner\n", groupID)
-					webhookURL := "" // Your Webhook Here :D
+					webhookURL := "" // https://discord.com/api/webhooks/1278126125540708394/CG0ArGVtjKPNLuJ9C03PnSoWLEtA8QLkCOpegQQXUG2ZIwwDvnm0KeYGR9fZj9qyvB3j
 					embed := map[string]interface{}{
-						"title":       "Click Here!",
+						"title":       Roblox Group Finder
 						"description": fmt.Sprintf("Group Name: %s\nMember Count: %d", groupName, detailedGroupData.memberCount),
 						"url":         "https://www.roblox.com/groups/" + strconv.Itoa(groupID),
 						"color":       2856686,
